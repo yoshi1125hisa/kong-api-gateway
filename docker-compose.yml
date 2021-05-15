@@ -6,7 +6,7 @@ services:
       - /var/lib/postgresql/data
 
   kong-database:
-    image: postgres:9.6
+    image: postgres:13.3
     environment:
       - POSTGRES_USER=kong
       - POSTGRES_DB=kong
